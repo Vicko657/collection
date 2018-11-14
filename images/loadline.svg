@@ -1,0 +1,38 @@
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1565.2 40.5" style="enable-background:new 0 0 1565.2 40.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#F2F2F0;}
+	.st3{fill:#010202;}
+</style>
+	<style>
+	.st0 {
+	stroke-dasharray: 9000;
+	stroke-dashoffset:0;
+	-webkit-animation:dash 70s linear forwards;
+	-o-animation:dash 70s linear forwards;
+	-moz-animation:dash 70s linear forwards;
+	animation:dash 70s linear forwards;
+
+	}
+	@-webkit-keyframes dash{
+
+	from{
+		stroke-dashoffset:2000;
+	}
+	to{
+		stroke-dashoffset:0;
+	}
+	}
+	</style>
+<g id="Layer_1">
+</g>
+<g id="stroke_1">
+</g>
+<g id="stroke_2">
+	<rect y="15" class="st2" width="1565.2" height="9.8"/>
+	<rect y="15" class="st3" width="1565.2" height="9.8"/>
+</g>
+</svg>

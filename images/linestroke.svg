@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1259 87" style="enable-background:new 0 0 1259 87;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;}
+</style>
+<style>
+	.st0 {
+	stroke-dasharray: 9000;
+	stroke-dashoffset:0;
+	-webkit-animation:dash 40s linear forwards;
+	-o-animation:dash 40s linear forwards;
+	-moz-animation:dash 40s linear forwards;
+	animation:dash 40s linear forwards;
+
+	}
+	@-webkit-keyframes dash{
+
+	from{
+		stroke-dashoffset:9000;
+	}
+	to{
+		stroke-dashoffset:0;
+	}
+	}
+</style>
+<line class="st0" x1="0.5" y1="42.5" x2="1200.5" y2="42.5"/>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>

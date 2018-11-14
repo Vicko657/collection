@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<link rel="stylesheet" href="style.css" type="text/css"/><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://use.fontawesome.com/525ca23e8d.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script src="https://use.typekit.net/gea0ybg.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/style1.css" />
+<script type="text/javascript" src="js/script.js"></script>
+  <script src="https://use.typekit.net/gea0ybg.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+  </head>
+  <body>
+
+    <body class="blinkdiv">
+<div class="enter-site" id="window">
+      <div class="num">
+      </div>
+      <div class="bar">
+        <div class="loadingbar">
+
+                <object class="lb">
+                  <div><span id="rotate"></span>
+                  <div><span class="count flex align-center rows">100</span></div></div>
+                <embed src="images/linestroke.svg">
+                  <embed src="images/svglogostroke.svg">
+                    <div class="flex flex--space-around align-center">
+                    <button class="sn" id="enter">Shop Now</button>
+                  </div>
+
+                </object>
+
+        </div>
+        <div>
+      </div>
+      <div class="socialmedia flex flex--space-around align-center">
+        <p>follow us</p>
+      </div>
+      <div class="socialmedia flex flex--space-around align-center">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+      <div class="socialmedia flex flex--space-around align-center">
+      <p class="all">@All Rights Reserved  TheFourCollection</p>
+      </div>
+    </div>
+    </div>
+    <div class="main-body">
+      <section class="nav flex flex--space-around align-center rows">
+            <div class="flex flex--start align-start">
+            <a href="index.html"><img class="logo" src="images/logo.png" alt="img">
+            </a></div>
+            <div class="flex flex--center align-center">
+              <a href="thecollection.html"><p>collections <i class="fas fa-sort-down"></i></p><a/>
+              <a href="thevision.html"><p>the vision</p><a/>
+            </div>
+            <div class="flex flex--space-between align-end">
+              <div id="wrap">
+              /*search
+            </div>
+          <a href="#"><i class="fas fa-shopping-cart"></i><a/>
+            </div>
+          </section>
+
+          <section class="lockup flex flex--center align-center columns">
+            <div class="container flex flex--start align-start rows">
+              <a href="http://the4collection.local/product-category/love/"><div class="flex-unit flex flex--center align-center columns edit" data-id="1">
+                <h3>love</h3>
+              </div></a>
+              <a href="http://the4collection.local/product-category/grace/"><div class="flex-unit flex flex--center align-center columns land" data-id="2">
+                <h3>grace</h3>
+              </div></a>
+              <a href="http://the4collection.local/product-category/liberty/"><div class="flex-unit flex flex--center align-center columns port" data-id="3">
+                <h3>liberty</h3>
+              </div></a>
+              <a href="http://the4collection.local/product-category/creativity/"><div class="flex-unit flex flex--center align-center columns port" data-id="4">
+                <h3>creativity</h3>
+              </div></a>
+              <div class="descriptofcol flex flex--space-between align-center columns">
+                <h1 class="int1">introducing</h1>
+                <h1 class="int2">the</h1>
+                <img class="logo2" src="images/logo.png" alt="img">
+                <h1 class="int3">autumn collection</h1>
+                <h1 class="int4">s/18</h1>
+              </div>
+            </div>
+            <div class="about-section flex flex--space-around align-center columns">
+              <h1>featured products</h1>
+              <br>
+              <br>
+              <br>
+
+            </div>
+          </section>
+
+          <footer class="foot align-center rows">
+                <div class="flex flex--space-around align-center">
+                  <div class="flex flex--start columns">
+                    <p>@All Rights Reserved</p>
+                    <a href="#"><p>Terms &amp; conditions</p></a>
+                    <a href="#"><p>Privacy Policy</p></a>
+                    <p>© 2018 thefourcollection</p>
+                  </div>
+                  <div class="flex flex--space-between align-end columns">
+                    <p>Follow Us </p>
+                    <div class="social flex rows">
+                      <i class="fab fa-facebook-f"></i>
+                      <i class="fab fa-twitter"></i>
+                      <i class="fab fa-instagram"></i>
+                  </div>
+
+                  </div>
+                </div>
+              </footer>
+        </div>
+
+        <script>
+        var terms = ["love", "grace", "liberty", "creativity"];
+
+        function rotateTerm() {
+          var ct = $("#rotate").data("term") || 0;
+          $("#rotate").data("term", ct == terms.length -1 ? 0 : ct + 1).text(terms[ct]).fadeIn()
+                      .delay(2000).fadeOut(200, rotateTerm);
+        }
+        $(rotateTerm);
+        </script>
+        <script>
+    $('.count').each(function () {
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 6300,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
+    });
+    </script>
+  </body>
+
+</html>
